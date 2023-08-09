@@ -1,0 +1,289 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --green-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-bg-color: #2e2f42;
+  --white-color: #ffffff;
+  --modal-bg-color: #fcfcfc;
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand-color);
+  text-transform: uppercase;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--pressed-state-color);
+}
+
+.logo-footer {
+  color: var(--light-color);
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* --------------- Studio Landing Page --------------- */
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.header {
+}
+
+.header-nav {
+}
+
+.logo-header {
+  color: var(--dark-color);
+}
+
+.nav-list {
+  color: var(--dark-color);
+  font-weight: 500;
+}
+
+.nav-list-item {
+}
+
+.nav-list-link {
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus-within {
+  color: var(--pressed-state-color);
+}
+
+.header-address {
+}
+
+.address-list {
+}
+
+.address-list-item {
+}
+
+.address-list-link {
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
+
+.hero {
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--white-color);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-btn {
+}
+
+/**
+  |============================
+  | Features Section
+  |============================
+*/
+
+.features {
+}
+
+.features-title {
+}
+
+.features-list {
+}
+
+.features-list-item {
+}
+
+.features-list-title {
+}
+
+.features-list-text {
+}
+
+/**
+  |============================
+  | Services Section
+  |============================
+*/
+
+.services {
+}
+
+.services-title {
+  text-transform: capitalize;
+}
+
+.services-list {
+}
+
+.services-list-item {
+}
+
+.services-list-img {
+}
+
+/**
+
+/**
+  |============================
+  | Team Section
+  |============================
+*/
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-section-title {
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-list-item {
+  background-color: var(--white-color);
+}
+
+.team-list-img {
+}
+
+.team-list-title {
+}
+
+.team-list-text {
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer {
+  background-color: var(--hero-bg-color);
+}
+
+.footer-text {
+  color: var(--light-color);
+}
+
+/* --------------- Portfolio Landing Page --------------- */
+
+.portfolio {
+}
+
+.btn-list {
+}
+
+.btn-list-item {
+}
+
+.btn.btn-list-button {
+  background-color: var(--light-color);
+  color: var(--primary-brand-color);
+}
+
+.btn-list-button:hover,
+.btn-list-button:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
+
+.portfolio-list {
+}
+
+.portfolio-list-item {
+}
+
+.portfolio-list-img {
+}
+
+.portfolio-list-title {
+}
+
+.portfolio-list-text {
+}
