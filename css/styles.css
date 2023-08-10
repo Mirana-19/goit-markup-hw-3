@@ -124,8 +124,6 @@ svg {
 }
 
 .logo-footer {
-  /* to remove */
-  margin-bottom: 16px;
 }
 
 .logo-header {
@@ -294,8 +292,6 @@ svg {
 }
 
 .features-list-title {
-  /* to remove */
-  margin-bottom: 8px;
 }
 
 .features-list-text {
@@ -314,8 +310,6 @@ svg {
 
 .services-title {
   text-transform: capitalize;
-  /* to remove */
-  margin-bottom: var(--heading-margin);
 }
 
 .services-list {
@@ -346,8 +340,6 @@ svg {
 
 .team-section-title {
   text-transform: capitalize;
-  /* to remove */
-  margin-bottom: var(--heading-margin);
 }
 
 .team-list {
@@ -378,8 +370,6 @@ svg {
 }
 
 .team-list-title {
-  /* to remove */
-  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -412,8 +402,6 @@ svg {
 .btn-list {
   display: flex;
   justify-content: center;
-  /* to remove */
-  margin-bottom: var(--heading-margin);
 }
 
 .btn-list-item:not(:last-child) {
@@ -467,8 +455,6 @@ svg {
 }
 
 .portfolio-list-title {
-  /* to remove */
-  margin-bottom: 8px;
 }
 
 .portfolio-list-text {
